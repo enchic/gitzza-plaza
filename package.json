@@ -8,5 +8,7 @@
     },
     "author": "공인식 (Enchic Gong)",
     "devDependencies": {
+    },
+    "dependencies": {
     }
 }
