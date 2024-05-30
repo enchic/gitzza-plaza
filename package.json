@@ -1,0 +1,12 @@
+{
+    "name": "gitzza-plaza",
+    "version": "0.0.1",
+    "description": "A public repository for Brunchstory Book “Git drawing.”",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/enchic/gitzza-plaza.git"
+    },
+    "author": "공인식 (Enchic Gong)",
+    "devDependencies": {
+    }
+}
