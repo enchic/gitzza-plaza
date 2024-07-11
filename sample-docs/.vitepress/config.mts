@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import ExportToEpubPlugin from '../../plugins/exportToEpub';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -13,6 +14,12 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Book',
+        items: [
+          { text: 'Cover', link: '/cover' }
+        ]
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
@@ -24,5 +31,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  } /*,
+  vite: {
+    plugins: [ExportToEpubPlugin]
+  } */
 })
