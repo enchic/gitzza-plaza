@@ -4,8 +4,12 @@ layout: cover
 
 ---
 
-# 표지
-
+<div class="box blank face">
+  <div>
+        <div style="background-image: url('./assets/images/cover.jpg');"></div>
+  </div>
+  <strong class="title">표지</strong>
+</div>
 
 <!-- <link rel="stylesheet" type="text/css" href="./cover.css" />
 

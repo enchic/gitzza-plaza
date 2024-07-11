@@ -13,12 +13,14 @@
     "express": "^4.19.2",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "vitepress": "^1.2.2"
+    "vitepress": "^1.2.2",
+    "vitepress-export-pdf": "^1.0.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev sample-docs",
     "docs:build": "vitepress build sample-docs",
-    "docs:preview": "vitepress preview sample-docs"
+    "docs:preview": "vitepress preview sample-docs",
+    "export-pdf": "press-export-pdf export sample-docs"
   },
   "dependencies": {
     "@types/glob": "^8.1.0",
