@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Cover from './Cover.vue'
 import './style.css'
+import './style-at-print.css'
 
 export default {
   extends: DefaultTheme,

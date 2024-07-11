@@ -1,14 +1,14 @@
 <script setup>
-import { useData } from 'vitepress'
-const { page, frontmatter } = useData()
+    import { useData } from 'vitepress'
+    const { page, frontmatter } = useData()
 </script>
 
 <template>
     <div v-if="page.isNotFound">
-    Custom 404 page!
+        Custom 404 page!
     </div>
     <div v-if="frontmatter.layout === 'home'">
-    Custom home page!
+        Custom home page!
     </div>
     <Content v-else />
 </template>
@@ -16,13 +16,16 @@ const { page, frontmatter } = useData()
 <style>
 [class*="box"] {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     width: auto;
-    min-height: 700px;
     color: #fff;
     font-weight: bold;
     font-size: 2em;
+    line-height: 1.4;
+}
+#app [class*="box"] {
+    height: auto;
+    min-height: 800px;
 }
 
 .face {
@@ -32,7 +35,7 @@ const { page, frontmatter } = useData()
     background-color: #1a1112;
 }
 
-.face > div {
+.face > div:not(.content) {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -49,10 +52,17 @@ const { page, frontmatter } = useData()
     background: no-repeat left top;
     background-size: cover;
 }
+.face > div > div img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
 
 .face .title {
     position: relative;
+    flex: 0 0 auto;
     color: #fff;
+    line-height: inherit;
 }
 
 .section {
@@ -72,8 +82,9 @@ const { page, frontmatter } = useData()
     .VPLocalNav {
         display: none !important;
     }
-    [class*="box"] {
+    #app [class*="box"] {
         height: 100vh;
+        min-height: 0;
     }
     .face {
         max-width: none;
