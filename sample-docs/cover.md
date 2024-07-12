@@ -2,20 +2,11 @@
 layout: cover
 ---
 
-<link
-    rel="stylesheet"
-    type="text/css"
-    href="./css/cover.css"
-/>
+<link rel="stylesheet" type="text/css" href="./css/cover.css" />
 
 <div class="box blank face">
     <div>
-        <div
-            style="
-                background-image:
-                    url('./assets/images/cover.jpg');
-            ">
-        </div>
+        <div style="background-image: url('./assets/images/cover.jpg');"></div>
         <div></div>
     </div>
     <div class="content">

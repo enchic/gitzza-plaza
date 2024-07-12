@@ -3,7 +3,7 @@ import ExportToEpubPlugin from '../../plugins/exportToEpub';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "My Awesome Book Project",
   description: "A VitePress Site",
   base: '/gitzza-plaza/',
   themeConfig: {

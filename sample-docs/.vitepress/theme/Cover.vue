@@ -14,7 +14,7 @@
 </template>
 
 <style>
-[class*="box"] {
+[class*="box"].face {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -23,7 +23,7 @@
     font-size: 2em;
     line-height: 1.4;
 }
-#app [class*="box"] {
+#app [class*="box"].face {
     height: auto;
     min-height: 800px;
 }
