@@ -5,7 +5,7 @@ layout: cover
 <link
     rel="stylesheet"
     type="text/css"
-    href="./public/css/cover.css"
+    href="./css/cover.css"
 />
 
 <div class="box blank face">
@@ -13,7 +13,7 @@ layout: cover
         <div
             style="
                 background-image:
-                    url('./public/assets/images/cover.jpg');
+                    url('./assets/images/cover.jpg');
             ">
         </div>
         <div></div>
