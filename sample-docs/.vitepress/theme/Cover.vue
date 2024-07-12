@@ -17,20 +17,18 @@
 [class*="box"].face {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 630px;
     color: #fff;
     font-weight: bold;
     font-size: 2em;
     line-height: 1.4;
 }
 #app [class*="box"].face {
-    height: auto;
-    min-height: 800px;
+    height: 891px;
 }
 
 .face {
     position: relative;
-    max-width: 688px;
     margin: 0 auto;
     background-color: #1a1112;
 }

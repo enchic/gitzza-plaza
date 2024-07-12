@@ -28,7 +28,9 @@ html, body {
 
 .face {
     position: relative;
-    /* max-width: 688px;*/ 
+    width: 630px;
+    height: 891px;
+    margin: 0 auto;
     background-color: #1a1112;
 }
 
