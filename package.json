@@ -8,6 +8,7 @@
   },
   "author": "공인식 (Enchic Gong)",
   "devDependencies": {
+    "@types/markdown-it-container": "^2.0.10",
     "vitepress": "^1.2.2",
     "vitepress-export-pdf": "^1.0.0"
   },
@@ -18,6 +19,8 @@
     "export-pdf": "press-export-pdf export sample-docs"
   },
   "dependencies": {
+    "markdown-it-anchor": "^9.0.1",
+    "markdown-it-container": "^4.0.0",
     "vue": "^3.4.27"
   }
 }

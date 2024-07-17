@@ -81,14 +81,19 @@
         display: none !important;
     }
     #app [class*="box"] {
+        width: auto;
         height: 100vh;
         min-height: 0;
+    }
+    #app [class*="box"].face {
+        height: 100vh;
     }
     .face {
         max-width: none;
     }
     .face > div {
-        bottom: 3cm;
+        /* bottom: 3cm; */
+        bottom: 0;
     }
 }
 </style>
