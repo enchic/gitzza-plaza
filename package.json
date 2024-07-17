@@ -16,6 +16,7 @@
     "docs:dev": "vitepress dev sample-docs",
     "docs:build": "vitepress build sample-docs",
     "docs:preview": "vitepress preview sample-docs",
+    "export-pdf-cover": "press-export-pdf export sample-docs -c sample-docs/.vitepress/vitepress-pdf-cover.config.ts",
     "export-pdf": "press-export-pdf export sample-docs"
   },
   "dependencies": {

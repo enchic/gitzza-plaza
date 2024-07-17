@@ -2,9 +2,9 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import Cover from './Cover.vue'
+// import Cover from './Cover.vue'
 import './style.css'
-// import './style-at-print.css'
+import './style-at-print.css'
 
 export default {
   extends: DefaultTheme,
@@ -14,7 +14,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    app.component('cover', Cover)
+    // app.component('cover', Cover)
     // ...
   }
 } satisfies Theme

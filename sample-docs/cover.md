@@ -1,5 +1,5 @@
 ---
-layout: cover
+layout: doc
 bookTitle: 글을 Git자
 bookSubTitle: 마크다운 언어로 글쓰기
 author: 공인식
@@ -19,3 +19,4 @@ publisher: 무명출판사
       <p class="author">{{ $frontmatter.author }} 지음 | {{ $frontmatter.publisher }}</p>
   </div>
 :::
+
