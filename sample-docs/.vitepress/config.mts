@@ -1,12 +1,14 @@
 import { defineConfig } from 'vitepress'
+// import mdIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import markdownItContainer from 'markdown-it-container'
 import ExportToEpubPlugin from '../../plugins/exportToEpub';
+import mdItYamlFrontmatter from 'markdown-it-front-matter'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Book Project",
-  description: "A VitePress Site",
+  title: "A BrunchBook Project",
+  description: "VitePress site for Brunchstory Book “Git drawing.”",
   base: '/gitzza-plaza/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -24,7 +26,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Examples',
+        text: 'VitePress examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
@@ -66,6 +68,34 @@ export default defineConfig({
             return "</div>\n";
           }
         }
+      });
+      md.use(markdownItContainer, "toc", {
+        render: function(tokens, idx) {
+          if (tokens[idx].nesting === 1) {
+            return (
+              "<div class=\"toc\">\n"
+            );
+          } else {
+            return "</div>\n";
+          }
+        }
+      });
+      md.use(markdownItContainer, "no-print", {
+        render: function(tokens, idx) {
+          if (tokens[idx].nesting === 1) {
+            return (
+              "<div class=\"no-print\">\n"
+            );
+          } else {
+            return "</div>\n";
+          }
+        }
+      });
+      md.use(mdItYamlFrontmatter, fm => {
+        // md.frontmatter = fm;
+
+        // Process frontmatter here if needed
+        console.log(fm); // For example, just log the frontmatter
       });
     }, /*
     extendMarkdown: md => {

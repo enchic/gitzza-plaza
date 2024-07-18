@@ -82,8 +82,27 @@ html, body {
 
 .face .author {
     position: relative;
+    display: flex;
     margin: auto 0 100px;
+    font-weight: normal;
     font-size: 1rem;
+}
+
+.face .publisher {
+    position: relative;
+    margin-left: 10px;
+    padding-left: 11px;
+    font-style: normal;
+}
+
+.face .publisher::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 10px;
+    margin-top: -5px;
+    border-left: 1px solid #ccc;
+    content: '';
 }
 
 .section {
@@ -115,5 +134,8 @@ html, body {
     .face > div {
         /* bottom: 3cm; */
         bottom: 0;
+    }
+    .no-print {
+        display: none;
     }
 }
