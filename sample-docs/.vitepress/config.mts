@@ -22,7 +22,8 @@ export default defineConfig({
         text: 'Book',
         items: [
           { text: 'Cover', link: '/cover' },
-          { text: 'Table of contents', link: '/table-of-contents' }
+          { text: 'Table of contents', link: '/table-of-contents' },
+          { text: 'Templates', link: '/templates' }
         ]
       },
       {
@@ -96,6 +97,18 @@ export default defineConfig({
 
         // Process frontmatter here if needed
         console.log(fm); // For example, just log the frontmatter
+      });
+      md.use(markdownItContainer, "section-header", {
+        render: function(tokens, idx) {
+          var m = tokens[idx].info.trim().match(/^section-header\s+`([^`]+)`\s+`([^`]+)`\s+`([^`]+)`$/);;
+          if (tokens[idx].nesting === 1) {
+            return (
+              "<CustomComponent lead=\"" + m[1] + "\" title=\"" + m[2] + "\" data-type=\"" + m[3] + "\">\n"
+            );
+          } else {
+            return "</CustomComponent>\n";
+          }
+        }
       });
     }, /*
     extendMarkdown: md => {
