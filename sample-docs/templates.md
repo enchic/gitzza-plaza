@@ -2,7 +2,7 @@
 head:
   - - link
     - rel: stylesheet
-      href: /assets/css/templates.css
+      href: /css/templates.css
 
 section1: 바닥 점선 타이틀
 section2: 바닥 점선 타이틀

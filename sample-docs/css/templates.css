@@ -1,0 +1,35 @@
+:root {
+    
+}
+
+.section:not(.ex) {
+    page-break-after: always;
+}
+
+.section-header + .section-header h3 { margin-top: 10px; }
+.section-header[data-type="default"] h3 { padding: 12px 30px 12px 40px; border-top-width: 0; border-bottom: 2px dashed #ccc; }
+.section-header[data-type="default"] h3 em { color: blue; font-weight: bold; font-style: normal; }
+.section-header[data-type="round"] h3 { padding: 12px 30px 12px 38px; border: 2px solid #ccc; border-radius: 30px; }
+.section-header[data-type="round"] h3 em  { color: blue; font-weight: bold; font-style: normal; }
+.section-header[data-type="figured"] h3 { position: relative; padding: 12px 30px 12px 40px; border-width: 0; }
+.section-header[data-type="figured"] h3::before { position: absolute; top: 50%; left: 0; width: 40px; height: 32px; margin-top: -16px; content: '🚀'; }
+.section-header[data-type="figured"] h3 em  { color: blue; font-weight: bold; font-style: normal; }
+.section-header[data-type="ggg"] h3 { padding: 12px 30px 12px 40px; background: var(--vp-home-hero-name-background); background-clip: text; -webkit-text-fill-color: var(--vp-home-hero-name-color); }
+.section-header[data-type="ggg"] h3 em { font-weight: bold; font-style: normal; } 
+.sectionnn[data-type="recommend"] { padding: 20px 30px 12px 38px; border: 1px solid #ccc; }
+.sectionnn[data-type="recommend"] h3 { margin-top: 0; }
+.sectionnn[data-type="recommend"] .author { position: relative; margin-bottom: 0; text-align: right; }
+.sectionnn[data-type="recommend"] .author::before { content: '·'; }
+
+section[data-type="conversation"] { padding: 10px; background-color: #bacee0; }
+section[data-type="conversation"] .block { display: flex; }
+section[data-type="conversation"] .block.mine { justify-content: flex-end; }
+section[data-type="conversation"] .block.mine .each { background-color: #ffeb33; }
+section[data-type="conversation"] .each { margin: 2px 0; padding: 4px 20px; border-radius: 4px; box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); background-color: #fff; color: #000; }
+
+.legend { display: flex; align-items: stretch; justify-content: flex-start; }
+.legend dt { margin: 0 0 0 16px !important; padding: 0 !important; font-style: normal !important; font-weight: bold; }
+.legend dt:first-child { margin-left: 0 !important; }
+.legend dt::after { margin-left: 4px; padding-right: 4px; font-weight: bold; content: '·' }
+.legend dd { position: relative; top: -2px; margin: 0 0 0 0 !important; padding: 0 !important; }
+.legend i { color: blue; font-style: normal; }
