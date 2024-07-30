@@ -1,11 +1,5 @@
 ---
-head:
-  - - link
-    - rel: stylesheet
-      href: /css/templates.css
-
-section1: 바닥 점선 타이틀
-section2: 바닥 점선 타이틀
+layout: doc
 ---
 
 <script setup>
@@ -38,7 +32,7 @@ section2: 바닥 점선 타이틀
     })
 </script>
 
-<link rel="stylesheet" href="./public/css/templates.css">
+<link rel="stylesheet" href="./css/templates.css">
 
 # Templates
 
