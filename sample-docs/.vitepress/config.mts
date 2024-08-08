@@ -23,8 +23,14 @@ export default defineConfig({
         items: [
           { text: 'Cover', link: '/cover' },
           { text: 'Table of contents', link: '/table-of-contents' },
-          { text: 'Templates', link: '/templates' }
+          { text: 'Body', link: '/body' },
         ]
+      },
+      {
+        text: 'VitePress extensions',
+        items: [
+          { text: 'Templates', link: '/templates' }
+        ],
       },
       {
         text: 'VitePress examples',
@@ -37,13 +43,14 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  } /*,
+    ],
+
+    outline: 'deep',
+  }, /*,
   vite: {
     plugins: [ExportToEpubPlugin]
   } */
- ,
- markdown: {
+  markdown: {
     // options for markdown-it-anchor
     // anchor: { permalink: markdownItAnchor.permalink.headerLink() },
     // options for markdown-it-toc

@@ -3,6 +3,7 @@ import { defineUserConfig } from 'vitepress-export-pdf'
 const routeOrder = [
   '/gitzza-plaza/cover.html',
   '/gitzza-plaza/table-of-contents.html',
+  '/gitzza-plaza/body.html',
   '/gitzza-plaza/index.html',
   '/gitzza-plaza/markdown-examples.html',
   '/gitzza-plaza/api-examples.html',
