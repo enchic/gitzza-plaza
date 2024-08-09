@@ -23,7 +23,28 @@ export default defineConfig({
         items: [
           { text: 'Cover', link: '/cover' },
           { text: 'Table of contents', link: '/table-of-contents' },
-          { text: 'Body', link: '/body' },
+          {
+            text: 'Body',
+            link: '/body',
+            items: [
+              {
+                text: 'Chapter 1',
+                link: '/chapter1/',
+                items: [
+                  { text: 'Episode 1', link: '/chapter1/episode1' },
+                  { text: 'Episode 2', link: '/chapter1/episode2' }
+                ]
+               },
+              {
+                text: 'Chapter 2',
+                link: '/chapter2/',
+                items: [
+                  { text: 'Episode 3', link: '/chapter2/episode3' },
+                  { text: 'Episode 4', link: '/chapter2/episode4' }
+                ]
+              },
+            ]
+          }
         ]
       },
       {

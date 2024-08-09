@@ -24,8 +24,20 @@ layout: doc
 
 ## Chapter 1
 
-<!--@include: ./chapter1/index.md-->
+### Episode 1
+
+<!--@include: ./chapter1/index.md{5,5}-->
+
+### Episode 2
+
+<!--@include: ./chapter1/index.md{9,9}-->
 
 ## Chapter 2
 
-<!--@include: ./chapter2/index.md-->
+### Episode 3
+
+<!--@include: ./chapter2/index.md{5,5}-->
+
+### Episode 4
+
+<!--@include: ./chapter2/index.md{9,9}-->

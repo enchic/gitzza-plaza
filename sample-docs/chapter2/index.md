@@ -1,7 +1,9 @@
-### Episode 3
+# Chapter 2
+
+## Episode 3
 
 <!--@include: ./episode3.md{3,}-->
 
-### Episode 4
+## Episode 4
 
 <!--@include: ./episode4.md{3,}-->
