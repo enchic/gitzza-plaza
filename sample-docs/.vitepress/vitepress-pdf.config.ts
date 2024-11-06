@@ -13,7 +13,7 @@ const routeOrder = [
 export default defineUserConfig({
   // routePatterns: ['!/index.html'],
   routePatterns: ['!/gitzza-plaza/cover.html'],
-  outDir: './sample-docs/dist-pdf',
+  outDir: 'sample-docs/dist-pdf',
   pdfOptions: {
     format: 'A4',
     printBackground: true,
