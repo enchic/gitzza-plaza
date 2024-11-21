@@ -13,6 +13,18 @@ export default withMermaid({
     title: "A BrunchBook Project",
     description: "VitePress site for Brunchstory Book “Git drawing.”",
     base: '/gitzza-plaza/',
+    locales: {
+      root: {
+        label: '한국어',
+        lang: 'ko'
+      },
+      en: {
+        label: 'English',
+        lang: 'en', // optional, will be added  as `lang` attribute on `html` tag
+        link: '/en/' // default /fr/ -- shows on navbar translations menu, can be external
+        // other locale specific properties...
+      }
+    },
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
