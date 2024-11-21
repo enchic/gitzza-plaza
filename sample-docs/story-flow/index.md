@@ -30,7 +30,40 @@
 
 # Story flow
 
+## Graph
+
 ```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': { 'mainBranchName': 'Main', 'rotateCommitLabel': false } }}%%
+gitGraph TB:
+    commit id: "Alpha"
+    commit id: "Beta"
+    branch "Branch 1"
+    commit id: "Gamma Gamma Gamma Gamma"
+    commit
+    checkout Main
+    commit
+    commit id: "to-pick"
+    checkout "Branch 1"
+    commit
+    commit
+    checkout Main
+    commit
+    merge "Branch 1"
+    commit
+    branch "Branch 2"
+    commit
+    commit
+    checkout "Branch 1"
+    merge "Branch 2"
+    commit
+    checkout Main
+    merge "Branch 1"
+    commit
+```
+
+## Code
+
+```mmd
 %%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': { 'mainBranchName': 'Main', 'rotateCommitLabel': false } }}%%
 gitGraph TB:
     commit id: "Alpha"

@@ -30,7 +30,25 @@
 
 # Character flow
 
+## Graph
+
 ```mermaid
+sequenceDiagram
+    participant 남주
+    participant 여주
+    남주->>지나가는 사람: Hello 지나가는 사람, how are you?
+    loop HealthCheck
+        지나가는 사람->>지나가는 사람: Fight against hypochondria
+    end
+    Note right of  지나가는 사람: Rational thoughts <br/>prevail!
+    지나가는 사람-->>남주: Great!
+    지나가는 사람->>여주: How about you?
+    여주-->>지나가는 사람: Jolly good!
+```
+
+## Code
+
+```mmd
 sequenceDiagram
     participant 남주
     participant 여주
