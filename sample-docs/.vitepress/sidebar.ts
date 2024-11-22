@@ -32,6 +32,13 @@ export const sidebar = [
               { text: 'Episode 4', link: '/chapter2/episode4' }
             ]
           },
+          {
+            text: 'Chapter 3',
+            link: '/chapter3/',
+            items: [
+              { text: 'Episode 3', link: '/chapter3/episode5' }
+            ]
+          },
         ]
       }
     ]
