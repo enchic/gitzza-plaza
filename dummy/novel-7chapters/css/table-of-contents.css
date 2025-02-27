@@ -1,0 +1,52 @@
+.toc {
+    
+}
+.toc ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+.toc > ol {
+    padding-left: 40px;
+}
+.toc > ol > li {
+    position: relative;
+    margin-left: 40px;
+}
+.toc > ol > li + li {
+    margin-top: 20px;
+}
+.toc > ol > li::before {
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+.toc > ol > li::after {
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+.toc > ol > li:nth-child(1)::after {
+    content: '🚀';
+}
+.toc > ol > li:nth-child(2)::after {
+    content: '🚩';
+}
+.toc > ol > li > ol {
+    padding-left: 0;
+}
+.toc ol > li li {
+    display: flex;
+    justify-content: space-between;
+}
+.toc li::before {
+    flex: 0 0 40px;
+    min-width: 40px;
+    counter-increment: section;
+    content: counters(section, '.') ' ';
+}
+.toc em {
+    margin-left: auto;
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: bold;
+}

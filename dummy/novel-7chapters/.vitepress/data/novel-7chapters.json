@@ -1,0 +1,17 @@
+{
+    "Characters": {
+        "남주": "공인식",
+        "여주": "너여주",
+        "지나가는 사람": "김철수"
+    },
+    "Episodes": [
+        {
+            "title": "첫 번째 에피소드",
+            "path": "chaper1/episode1.md"
+        },
+        {
+            "title": "두 번째 에피소드",
+            "path": "chapter2/episode4.md"
+        }
+    ]
+}
