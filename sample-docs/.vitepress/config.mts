@@ -12,7 +12,7 @@ export default withMermaid({
   //defineConfig({
     title: "A BrunchBook Project",
     description: "VitePress site for Brunchstory Book “Git drawing.”",
-    base: '/gitzza-plaza/',
+    base: '/gitzza-plaza/sample-docs/',
     locales: {
       root: {
         label: '한국어',
