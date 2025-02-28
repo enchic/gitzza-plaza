@@ -25,6 +25,7 @@ export default withMermaid({
         // other locale specific properties...
       }
     },
+    outDir: '../.vitepress-dist/gitzza-plaza/sample-docs',
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [

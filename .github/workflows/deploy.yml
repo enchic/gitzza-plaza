@@ -45,9 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            sample-docs/.vitepress/dist
-            dummy/novel-7chapters/.vitepress/dist
+          path: .vitepress-dist
 
   # Deployment job
   deploy:

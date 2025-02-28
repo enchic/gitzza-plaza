@@ -25,6 +25,7 @@ export default withMermaid({
         // other locale specific properties...
       }
     }, */
+    outDir: '../../.vitepress-dist/gitzza-plaza/dummy/novel-7chapters',
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [

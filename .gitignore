@@ -1,5 +1,6 @@
 node_modules/
 .vitepress/cache
+.vitepress-dist
 sample-docs/.vitepress/cache
 sample-docs/.vitepress/dist
 dummy/novel-7chapters/.vitepress/cache
