@@ -6,3 +6,6 @@ sample-docs/.vitepress/dist
 dummy/novel-7chapters/.vitepress/cache
 dummy/novel-7chapters/.vitepress/dist
 dummy/novel-7chapters/dist-pdf
+dummy/poem-100pieces/.vitepress/cache
+dummy/poem-100pieces/.vitepress/dist
+dummy/poem-100pieces/dist-pdf

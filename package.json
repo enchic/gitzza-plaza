@@ -27,7 +27,10 @@
     "pdf 생성": "npm run export-pdf",
     "dummy:novel7chapters:dev": "vitepress dev dummy/novel-7chapters",
     "dummy:novel7chapters:build": "vitepress build dummy/novel-7chapters",
-    "export-pdf:dummy:novel7chapters": "press-export-pdf export dummy/novel-7chapters"
+    "dummy:poem100pieces:dev": "vitepress dev dummy/poem-100pieces",
+    "dummy:poem100pieces:build": "vitepress build dummy/poem-100pieces",
+    "export-pdf:dummy:novel7chapters": "press-export-pdf export dummy/novel-7chapters",
+    "export-pdf:dummy:poem100pieces": "press-export-pdf export dummy/novel-7chapters"
   },
   "dependencies": {
     "markdown-it-anchor": "^9.0.1",
