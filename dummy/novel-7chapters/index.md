@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Dummy Book:\nNovel has 7 chapters"
+  name: "Dummy Book:\nNovel with 7 chapters"
   text: "7개 챕터의 더미 소설책"
   tagline: Lorem ipsum dolor sit, consectetur adipiscing elit.
   actions:
