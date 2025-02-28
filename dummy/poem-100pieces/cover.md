@@ -14,7 +14,7 @@ publisher: Noname Publisher
       <div></div>
   </div>
   <div class="content">
-      <h1 class="title" v-nl2br>{{ $frontmatter.bookTitle.split('\\n').join('\n') }}</h1>
+      <h1 class="title">{{ $frontmatter.bookTitle.split('\\n').join('\n') }}</h1>
       <p>{{ $frontmatter.bookSubTitle }}</p>
       <p class="author">{{ $frontmatter.author }} 지음 <i class="publisher">{{ $frontmatter.publisher }}</i></p>
   </div>

@@ -1,10 +1,10 @@
-import gitzza from './data/novel-7chapters.json'
+// import gitzza from './data/novel-7chapters.json'
 
 // 등장인물별 페이지 생성
-const characterPages = Object.entries(gitzza.Characters).map(([name, fullName]) => ({
+/* const characterPages = Object.entries(gitzza.Characters).map(([name, fullName]) => ({
   text: name,
   link: `/character-flow/${name}`
-}))
+})) */
 
 export const sidebar = [
   {
