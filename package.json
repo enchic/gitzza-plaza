@@ -25,7 +25,8 @@
     "export-pdf": "press-export-pdf export sample-docs",
     "pdf 커버 생성": "npm run export-pdf-cover",
     "pdf 생성": "npm run export-pdf",
-    "dummy:novel7chapters": "vitepress dev dummy/novel-7chapters",
+    "dummy:novel7chapters:dev": "vitepress dev dummy/novel-7chapters",
+    "dummy:novel7chapters:build": "vitepress build dummy/novel-7chapters",
     "export-pdf:dummy:novel7chapters": "press-export-pdf export dummy/novel-7chapters"
   },
   "dependencies": {

@@ -39,11 +39,13 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build with VitePress
-        run: npm run docs:build
+        run: |
+          npm run docs:build
+          npm run dummy:novel7chapters:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: sample-docs/.vitepress/dist
+          path: ./.vitepress/dist
 
   # Deployment job
   deploy:
