@@ -8,14 +8,14 @@ hero:
   tagline: Lorem ipsum dolor sit, consectetur adipiscing elit.
   actions:
     - theme: brand
-      text: Episode 1
-      link: /chapter1/episode1
+      text: Cover
+      link: /cover
     - theme: alt
-      text: Episode 2
-      link: /chapter1/episode2
+      text: Table of contents
+      link: /table-of-contents
     - theme: alt
-      text: Episode 3
-      link: /chapter1/episode3
+      text: Body
+      link: /body
 
 features:
   - title: Chapter 1
