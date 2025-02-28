@@ -52,6 +52,33 @@ export const sidebar = [
               { text: 'Episode 12', link: '/chapter4/episode12' }
             ]
           },
+          {
+            text: 'Chapter 5',
+            link: '/chapter5/',
+            items: [
+              { text: 'Episode 13', link: '/chapter5/episode13' },
+              { text: 'Episode 14', link: '/chapter5/episode14' },
+              { text: 'Episode 15', link: '/chapter5/episode15' }
+            ]
+          },
+          {
+            text: 'Chapter 6',
+            link: '/chapter6/',
+            items: [
+              { text: 'Episode 16', link: '/chapter6/episode16' },
+              { text: 'Episode 17', link: '/chapter6/episode17' },
+              { text: 'Episode 18', link: '/chapter6/episode18' }
+            ]
+          },
+          {
+            text: 'Chapter 7',
+            link: '/chapter7/',
+            items: [
+              { text: 'Episode 19', link: '/chapter7/episode19' },
+              { text: 'Episode 20', link: '/chapter7/episode20' },
+              { text: 'Episode 21', link: '/chapter7/episode21' }
+            ]
+          },
         ]
       }
     ]
