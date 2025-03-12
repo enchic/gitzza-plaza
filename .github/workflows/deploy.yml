@@ -43,6 +43,7 @@ jobs:
           npm run docs:build
           npm run dummy:novel7chapters:build
           npm run dummy:poem100pieces:build
+          npm run dummy:magazine:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
