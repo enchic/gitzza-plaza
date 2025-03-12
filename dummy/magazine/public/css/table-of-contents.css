@@ -1,0 +1,64 @@
+.toc {
+    
+}
+.toc ol,
+.toc ul {
+    counter-reset: section;
+    list-style-type: none;
+}
+.toc > div > ul {
+    padding-left: 0;
+}
+.toc > div > ul > li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    font-size: 0.875rem;
+    line-height: 1;
+}
+.toc > div > ul > li + li {
+    margin-top: 10px;
+}
+.toc > div > ul > li::before {
+    position: absolute;
+    top: 0;
+    /* left: -20px; */
+} /*
+.toc > ol > li::after {
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+.toc > ol > li:nth-child(1)::after {
+    content: '🚀';
+}
+.toc > ol > li:nth-child(2)::after {
+    content: '🚩';
+} */
+.toc li::before {
+    /*
+    flex: 0 0 40px;
+    min-width: 40px;
+    counter-increment: section;
+    content: counters(section, '.') ' '; */
+}
+.toc em {
+    margin-left: auto;
+    padding-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.vp-doc h2 {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.vp-doc h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}

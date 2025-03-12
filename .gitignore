@@ -9,3 +9,6 @@ dummy/novel-7chapters/dist-pdf
 dummy/poem-100pieces/.vitepress/cache
 dummy/poem-100pieces/.vitepress/dist
 dummy/poem-100pieces/dist-pdf
+dummy/magazine/.vitepress/cache
+dummy/magazine/.vitepress/dist
+dummy/magazine/dist-pdf
