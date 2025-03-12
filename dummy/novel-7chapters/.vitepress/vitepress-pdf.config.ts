@@ -2,17 +2,17 @@ import { defineUserConfig } from 'vitepress-export-pdf'
 
 const routeOrder = [
   // '/dummy/novel-7chapters/cover.html',
-  '/dummy/novel-7chapters/index.html',
-  '/dummy/novel-7chapters/table-of-contents.html',
-  '/dummy/novel-7chapters/body.html',
+  '/gitzza-plaza/dummy/novel-7chapters/index.html',
+  '/gitzza-plaza/dummy/novel-7chapters/table-of-contents.html',
+  '/gitzza-plaza/dummy/novel-7chapters/body.html',
   // ...
 ];
 
 export default defineUserConfig({
   // routePatterns: ['!/index.html'],
   routePatterns: [
-    '!/dummy/novel-7chapters/cover.html',
-    '!/dummy/novel-7chapters/chapter*/**/*.html'
+    '!/gitzza-plaza/dummy/novel-7chapters/cover.html',
+    '!/gitzza-plaza/dummy/novel-7chapters/chapter*/**/*.html'
   ],
   outDir: 'dummy/novel-7chapters/dist-pdf',
   pdfOptions: {

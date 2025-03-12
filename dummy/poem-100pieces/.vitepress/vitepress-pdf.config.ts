@@ -2,17 +2,17 @@ import { defineUserConfig } from 'vitepress-export-pdf'
 
 const routeOrder = [
   // '/dummy/poem-100pieces/cover.html',
-  '/dummy/poem-100pieces/index.html',
-  '/dummy/poem-100pieces/table-of-contents.html',
-  '/dummy/poem-100pieces/body.html',
+  '/gitzza-plaza/dummy/poem-100pieces/index.html',
+  '/gitzza-plaza/dummy/poem-100pieces/table-of-contents.html',
+  '/gitzza-plaza/dummy/poem-100pieces/body.html',
   // ...
 ];
 
 export default defineUserConfig({
   // routePatterns: ['!/index.html'],
   routePatterns: [
-    '!/dummy/poem-100pieces/cover.html',
-    '!/dummy/poem-100pieces/chapter*/**/*.html'
+    '!/gitzza-plaza/dummy/poem-100pieces/cover.html',
+    '!/gitzza-plaza/dummy/poem-100pieces/chapter*/**/*.html'
   ],
   outDir: 'dummy/poem-100pieces/dist-pdf',
   pdfOptions: {
