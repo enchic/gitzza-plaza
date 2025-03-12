@@ -108,6 +108,23 @@ html, body {
     content: '';
 }
 
+.face .barcode {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 180px;
+    height: 90px;
+    margin: 0 2.5% 2.5% auto;
+}
+
+.face .barcode svg {
+
+}
+
 .section {
     padding: 1cm;
 }

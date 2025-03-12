@@ -6,6 +6,19 @@ author: Author
 publisher: Noname Publisher
 ---
 
+<script setup>
+  import { createApp } from 'vue';
+  import VueBarcode from '@chenfengyuan/vue-barcode';
+
+  const barcodeOptions = {
+    displayValue: true,
+    format: 'EAN13',
+    width: 1.4,
+    height: 34,
+  };
+</script>
+
+
 <link rel="stylesheet" type="text/css" href="./css/cover.css" />
 
 ::: face
@@ -63,7 +76,8 @@ publisher: Noname Publisher
           </p>
         </div>
       </div>
-      <p class="author" style="order: 4;">{{ $frontmatter.author }} 지음 <i class="publisher">{{ $frontmatter.publisher }}</i></p>
+      <p class="author" style="order: 4;">{{ $frontmatter.author }} <i class="publisher">{{ $frontmatter.publisher }}</i></p>
+      <div class="barcode"><vue-barcode value="123456789012" :options="barcodeOptions" tag="svg"></vue-barcode></div>
   </div>
 :::
 
