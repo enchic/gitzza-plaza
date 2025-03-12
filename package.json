@@ -36,10 +36,13 @@
     "export-pdf:dummy:magazine": "press-export-pdf export dummy/magazine"
   },
   "dependencies": {
+    "@chenfengyuan/vue-barcode": "2",
+    "jsbarcode": "3",
     "markdown-it-anchor": "^9.0.1",
     "markdown-it-container": "^4.0.0",
     "markdown-it-front-matter": "^0.2.4",
     "pagedjs": "^0.4.3",
     "vue": "^3.4.27"
-  }
+  },
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
 }
