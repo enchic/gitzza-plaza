@@ -31,9 +31,12 @@
     "dummy:poem100pieces:build": "vitepress build dummy/poem-100pieces",
     "dummy:magazine:dev": "vitepress dev dummy/magazine",
     "dummy:magazine:build": "vitepress build dummy/magazine",
+    "dummy:scripts:dev": "vitepress dev dummy/scripts",
+    "dummy:scripts:build": "vitepress build dummy/scripts",
     "export-pdf:dummy:novel7chapters": "press-export-pdf export dummy/novel-7chapters",
     "export-pdf:dummy:poem100pieces": "press-export-pdf export dummy/poem-100pieces",
-    "export-pdf:dummy:magazine": "press-export-pdf export dummy/magazine"
+    "export-pdf:dummy:magazine": "press-export-pdf export dummy/magazine",
+    "export-pdf:dummy:scripts": "press-export-pdf export dummy/scripts"
   },
   "dependencies": {
     "@chenfengyuan/vue-barcode": "2",

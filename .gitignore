@@ -12,3 +12,6 @@ dummy/poem-100pieces/dist-pdf
 dummy/magazine/.vitepress/cache
 dummy/magazine/.vitepress/dist
 dummy/magazine/dist-pdf
+dummy/scripts/.vitepress/cache
+dummy/scripts/.vitepress/dist
+dummy/scripts/dist-pdf
