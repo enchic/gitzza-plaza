@@ -1,13 +1,13 @@
 # Scene 6
 
-## Episode 16
+## Shot 16
 
-<!--@include: ./episode16.md{3,}-->
+<!--@include: ./shot16.md{3,}-->
 
-## Episode 17
+## Shot 17
 
-<!--@include: ./episode17.md{3,}-->
+<!--@include: ./shot17.md{3,}-->
 
-## Episode 18
+## Shot 18
 
-<!--@include: ./episode18.md{3,}-->
+<!--@include: ./shot18.md{3,}-->

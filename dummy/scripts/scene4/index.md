@@ -1,13 +1,13 @@
 # Scene 4
 
-## Episode 10
+## Shot 10
 
-<!--@include: ./episode10.md{3,}-->
+<!--@include: ./shot10.md{3,}-->
 
-## Episode 11
+## Shot 11
 
-<!--@include: ./episode11.md{3,}-->
+<!--@include: ./shot11.md{3,}-->
 
-## Episode 12
+## Shot 12
 
-<!--@include: ./episode12.md{3,}-->
+<!--@include: ./shot12.md{3,}-->

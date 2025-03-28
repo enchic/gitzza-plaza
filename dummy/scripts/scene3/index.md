@@ -1,13 +1,13 @@
 # Scene 3
 
-## Episode 7
+## Shot 7
 
-<!--@include: ./episode7.md{3,}-->
+<!--@include: ./shot7.md{3,}-->
 
-## Episode 8
+## Shot 8
 
-<!--@include: ./episode8.md{3,}-->
+<!--@include: ./shot8.md{3,}-->
 
-## Episode 9
+## Shot 9
 
-<!--@include: ./episode9.md{3,}-->
+<!--@include: ./shot9.md{3,}-->

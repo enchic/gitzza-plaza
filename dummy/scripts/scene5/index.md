@@ -1,13 +1,13 @@
 # Scene 5
 
-## Episode 13
+## Shot 13
 
-<!--@include: ./episode13.md{3,}-->
+<!--@include: ./shot13.md{3,}-->
 
-## Episode 14
+## Shot 14
 
-<!--@include: ./episode14.md{3,}-->
+<!--@include: ./shot14.md{3,}-->
 
-## Episode 15
+## Shot 15
 
-<!--@include: ./episode15.md{3,}-->
+<!--@include: ./shot15.md{3,}-->

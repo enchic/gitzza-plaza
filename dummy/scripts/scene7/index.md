@@ -1,13 +1,13 @@
 # Scene 7
 
-## Episode 19
+## Shot 19
 
-<!--@include: ./episode19.md{3,}-->
+<!--@include: ./shot19.md{3,}-->
 
-## Episode 20
+## Shot 20
 
-<!--@include: ./episode20.md{3,}-->
+<!--@include: ./shot20.md{3,}-->
 
-## Episode 21
+## Shot 21
 
-<!--@include: ./episode21.md{3,}-->
+<!--@include: ./shot21.md{3,}-->

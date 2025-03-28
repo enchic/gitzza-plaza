@@ -1,13 +1,13 @@
 # Scene 2
 
-## Episode 4
+## Shot 4
 
-<!--@include: ./episode4.md{3,}-->
+<!--@include: ./shot4.md{3,}-->
 
-## Episode 5
+## Shot 5
 
-<!--@include: ./episode5.md{3,}-->
+<!--@include: ./shot5.md{3,}-->
 
-## Episode 6
+## Shot 6
 
-<!--@include: ./episode6.md{3,}-->
+<!--@include: ./shot6.md{3,}-->

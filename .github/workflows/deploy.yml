@@ -44,6 +44,7 @@ jobs:
           npm run dummy:novel7chapters:build
           npm run dummy:poem100pieces:build
           npm run dummy:magazine:build
+          npm run dummy:scripts:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
