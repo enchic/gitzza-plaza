@@ -1,59 +1,46 @@
-# Shot 1
+# Shot 1: 광장(Plaza) – 낮
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae metus sit amet lorem tristique hendrerit id at erat. Donec venenatis turpis vitae purus dapibus, sed blandit massa consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed fermentum porta diam, non sagittis nunc pellentesque ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+[광장(Plaza)](about:blank "노션 상세 페이지로 이동") – 낮([2025년 4월 24일 목요일, 13:56 KST](about:blank "구글 캘린더"))
 
-"Nulla facilisi," susurrat Marcus, oculos ad caelum convertens. "Morbi nec felis odio."
+**_등장인물_**
 
-"Sed ut perspiciatis unde omnis iste natus error sit," respondit Julia, "voluptatem accusantium doloremque laudantium."
+- 지훈(20대 초반, 학생)
+- 수아(20대 초반, 학생)
 
-Proin sagittis dolor sed mi sagittis, in mollis orci scelerisque. Phasellus varius dolor nec dolor imperdiet, vel imperdiet elit scelerisque. Aenean facilisis lectus ante, ut volutpat elit condimentum eget. Vivamus sagittis porta volutpat. Nulla semper est vitae metus auctor cursus. Suspendisse potenti.
+**_소품_**
 
-> Tempus fugit, sed memoriae manent.
+- 스마트폰 (PPL: [삼성 갤럭시 S25](about:blank))  
+※ 본 소품은 PPL 연계 제품입니다.
+- 에코백 (PPL: [무신사 에코백](about:blank))  
+※ 본 소품은 PPL 연계 제품입니다.
+- 지나가는 소품 1
+- 지나가는 소품 2
 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+_지훈이 광장 한가운데에서 삼성 갤럭시 S25 스마트폰을 들여다본다.  
+수아가 무신사 에코백을 들고 멀리서 손을 흔들며 다가온다._
 
-Marcus lente surrexit, oculis circumspectans. "At vero eos et accusamus et iusto odio dignissimos ducimus," inquit voce tremula, "qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+**수아**
 
-Nullam eu ante vel est convallis dignissim. Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio. Nunc porta vulputate tellus. Nunc rutrum turpis sed pede. Sed bibendum. Aliquam posuere. Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Julia suspiravit. "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus."
+**지훈**
 
-Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi. Phasellus lacus. Etiam laoreet quam sed arcu.
+> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-"Temporibus autem quibusdam," Marcus respondit, "et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
+**수아**
 
-Praesent id justo in neque elementum ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue.
+> Nullam eu ante vel est convallis dignissim. Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.
 
-Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci.
+**지훈**
 
-"Itaque earum rerum hic tenetur a sapiente delectus," Julia murmuravit, "ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+> Pellentesque dapibus suscipit ligula.
 
-Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Duis condimentum augue id magna semper rutrum. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo.
+**수아**
 
-Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus porttitor turpis ac leo. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Nam sed tellus id magna elementum tincidunt.
+> (에코백을 들어 보이며) "이거, 요즘 무신사에서 인기 많대. 가볍고 튼튼해서 좋아."
 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**지훈**
 
-Marcus lente surrexit, oculis circumspectans. "At vero eos et accusamus et iusto odio dignissimos ducimus," inquit voce tremula, "qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint."
+> (스마트폰을 보며) "삼성 갤럭시 S25로 바로 검색해볼게."
 
-Nullam eu ante vel est convallis dignissim. Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio. Nunc porta vulputate tellus. Nunc rutrum turpis sed pede. Sed bibendum. Aliquam posuere. Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.
-
-Julia suspiravit. "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus."
-
-Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi. Phasellus lacus. Etiam laoreet quam sed arcu.
-
-"Temporibus autem quibusdam," Marcus respondit, "et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
-
-Praesent id justo in neque elementum ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue.
-
-Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum mauris vitae tortor. In dapibus augue non sapien. Aliquam ante. Curabitur bibendum justo non orci.
-
-"Itaque earum rerum hic tenetur a sapiente delectus," Julia murmuravit, "ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-
-Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Duis condimentum augue id magna semper rutrum. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo.
-
-Nulla non arcu lacinia neque faucibus fringilla. Nulla non lectus sed nisl molestie malesuada. Proin in tellus sit amet nibh dignissim sagittis. Vivamus porttitor turpis ac leo. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Nam sed tellus id magna elementum tincidunt.
-
-Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Etiam posuere lacus quis dolor. Integer vulputate sem a nibh rutrum consequat. Maecenas lorem. Pellentesque pretium lectus id turpis. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Fusce wisi. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
-
-"Finis," Marcus susurravit, "sed non conclusio."
+_두 사람은 웃으며 인사를 나누고, 함께 광장 한쪽 벤치로 걸어간다._
